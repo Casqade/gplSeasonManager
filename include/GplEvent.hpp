@@ -33,9 +33,6 @@ struct GplEvent
   };
 
 
-  GplEvent() = default;
-
-
   bool complete() const;
   std::vector <std::string> serialize() const;
 

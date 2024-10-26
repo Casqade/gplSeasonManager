@@ -23,9 +23,6 @@ struct GplSeason
   };
 
 
-  GplSeason() = default;
-
-
   bool complete() const;
   std::vector <std::string> serialize() const;
 
