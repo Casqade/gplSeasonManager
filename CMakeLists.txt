@@ -11,7 +11,7 @@ project(${TARGET} VERSION 1.0 LANGUAGES CXX)
 option(BUILD_SHARED_LIBS "Build using shared libraries" OFF)
 
 add_executable(${TARGET}
-  main.cpp
+  src/gplSeasonManager.cpp
 )
 
 set_target_properties(${TARGET} PROPERTIES
